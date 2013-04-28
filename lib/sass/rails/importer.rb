@@ -6,6 +6,7 @@ module Sprockets
 
     def extensions
       {
+        "css.erb" => :scss,
         "css" => :scss,
         "css.sass" => :sass,
         "css.scss" => :scss
